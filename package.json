@@ -1,0 +1,25 @@
+{
+  "name": "Vue_loginPage",
+  "version": "1.0.0",
+  "description": "使用 Vue 搭配 BootStrap 5 實作一個登入頁面",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s123600g/Vue_loginPage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/s123600g/Vue_loginPage/issues"
+  },
+  "homepage": "https://github.com/s123600g/Vue_loginPage#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.0-alpha1",
+    "bootstrap-icons": "^1.0.0-alpha5",
+    "popper.js": "^1.16.1"
+  }
+}

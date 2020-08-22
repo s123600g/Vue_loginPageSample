@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Import Vue -->
+    <script src="static/JS/vue.js"></script>
+    <!-- Import CSS -->
+    <link href="css/main.css" rel="stylesheet" />
+
+    <title>Vue&Bootstrap5 Login</title>
+  </head>
+
+  <body class="d-flex text-center bg-secondary">
+    <form class="form-login">
+      <img
+        src="/node_modules/bootstrap-icons/icons/key-fill.svg"
+        height="72"
+        width="72"
+        class="mb-4"
+      />
+      <h1 class="h3 mb-3 font-weight-normal">請進行登入</h1>
+      <label for="inputEmail" class="sr-only">Email address</label>
+      <input
+        type="email"
+        id="inputEmail"
+        class="form-control mb-2 ipstyle-0"
+        placeholder="Email address"
+        required
+        autofocus
+      />
+      <div class="form-group">
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input
+          type="password"
+          id="inputPassword"
+          class="form-control mb-2 ipstyle-3"
+          placeholder="Password"
+          required
+        />
+      </div>
+
+      <button class="btn btn-lg btn-primary btn-block" type="submit">
+        登入
+      </button>
+    </form>
+
+    <!-- npm install popper.js -->
+    <script src="/node_modules/popper.js/dist/umd/popper.min.js"></script>
+
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+  </body>
+</html>
