@@ -12,7 +12,7 @@ $untilities: () !default;
 $untilities: map-merge(
   (
     // 針對 Input 樣式'padding'進行客製大小屬性，並給予一個新的客製類別名稱做取用代表
-      "input-padding":
+      'input-padding':
       (
         property: padding,
         class: ipstyle,
