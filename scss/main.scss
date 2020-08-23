@@ -1,7 +1,8 @@
 $secondary: #f4f4f4;
 $primary: #e21c68;
 
-$border-radius: 0;
+// 更改Bootstrap 5 針對邊框圓角設定值
+$border-radius:  25% 10%;
 $border-radius-sm: 0;
 $border-radius-ls: 0;
 
@@ -29,5 +30,5 @@ $utilities: map-merge(
   $utilities
 );
 
-@import "style.scss";
+@import "PageStyle";
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
