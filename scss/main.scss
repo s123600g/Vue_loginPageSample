@@ -1,5 +1,5 @@
 $secondary: #f4f4f4;
-$primary:#e21c68;
+$primary: #e21c68;
 
 $border-radius: 0;
 $border-radius-sm: 0;
@@ -7,12 +7,12 @@ $border-radius-ls: 0;
 
 // 自訂一個樣式屬性客製類別
 // 如果此變數有預設值就使用預設值，未有預設值就使用現在設置值
-$untilities: () !default;
+$utilities: () !default;
 // 設置該變數未有預設值時，設置的參數值內容
-$untilities: map-merge(
+$utilities: map-merge(
   (
     // 針對 Input 樣式'padding'進行客製大小屬性，並給予一個新的客製類別名稱做取用代表
-      'input-padding':
+      "input-padding":
       (
         property: padding,
         class: ipstyle,
@@ -24,9 +24,9 @@ $untilities: map-merge(
           4: 0.9rem,
           5: 1rem,
         ),
-      ),
+      )
   ),
-  $untilities
+  $utilities
 );
 
 @import "style.scss";
