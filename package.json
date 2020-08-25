@@ -21,6 +21,7 @@
     "bootstrap": "^5.0.0-alpha1",
     "bootstrap-icons": "^1.0.0-alpha5",
     "popper.js": "^1.16.1",
+    "requirejs": "^2.3.6",
     "vue": "^2.6.12"
   }
 }
