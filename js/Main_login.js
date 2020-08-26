@@ -1,8 +1,8 @@
-const login_btn = document.querySelector("#loginbtn");
-const tooltip = document.querySelector("#tooltip");
+var data_list = {
+  email: "test@login.com",
+};
 
-// Pass the button, the tooltip, and some options, and Popper will do the
-// magic positioning for you:
-Popper.createPopper(login_btn, tooltip, {
-  placement: "right",
+var login_form = new Vue({
+  el: "#login",
+  data: data_list,
 });
