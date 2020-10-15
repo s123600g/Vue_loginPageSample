@@ -39,10 +39,6 @@ npm install bootstrap@next
 ```shell=
 npm install bootstrap-icons
 ```
-安裝`popper.js`
-```shell=
-npm install popper.js
-```
 
 ### 匯入安裝套件
 ```htmlembedded=
