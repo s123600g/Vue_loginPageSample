@@ -18,43 +18,44 @@
   </head>
 
   <body class="d-flex text-center bg-secondary">
-    <form id="login" class="form-login">
-      <img
-        src="/node_modules/bootstrap-icons/icons/key-fill.svg"
-        height="72"
-        width="72"
-        class="mb-4"
-      />
-      <h1 class="h3 mb-3 font-weight-normal">請進行登入</h1>
-      <label for="inputEmail" class="sr-only">Email address</label>
-      <input
-        type="email"
-        id="inputEmail"
-        class="form-control mb-2 ipstyle-3"
-        placeholder="Email address"
-        required
-        autofocus
-        v-model = "email" :value="email"
-      />
-      {{ email }}
-      <div class="form-group">
-        <label for="inputPassword" class="sr-only">Password</label>
-        <input
-          type="password"
-          id="inputPassword"
-          class="form-control mb-2 ipstyle-3"
-          placeholder="Password"
-          required
+    <div id="MainArea" class="container">
+      <form class="form-login">
+        <img
+          src="/node_modules/bootstrap-icons/icons/key-fill.svg"
+          height="72"
+          width="72"
+          class="mb-4"
         />
-      </div>
-      <button
-        class="btn btn-lg btn-primary btn-block"
-        id="loginbtn"
-        type="submit"
-        aria-describedby="tooltip"
-      >
-        登入
-      </button>
-    </form>
+        <h1 class="h3 mb-3 font-weight-normal">Login</h1>
+        <label for="inputEmail" class="sr-only">Email address</label>
+        <input
+          type="email"
+          id="inputEmail"
+          class="form-control mb-2 ipstyle-3"
+          placeholder="Email address"
+          required
+          autofocus
+          v-model="email"
+        />
+        <div class="form-group">
+          <label for="inputPassword" class="sr-only">Password</label>
+          <input
+            type="password"
+            id="inputPassword"
+            class="form-control mb-2 ipstyle-3"
+            placeholder="Password"
+            v-model="pwd"
+          />
+        </div>
+
+        <button
+          class="btn btn-lg btn-primary btn-block"
+          type="button"
+          v-on:click="sendLogin"
+        >
+          登入
+        </button>
+      </form>
+    </div>
   </body>
 </html>
