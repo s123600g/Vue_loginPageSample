@@ -1,11 +1,10 @@
 ---
-title: Vue.js&Bootstrap5_loginPage
+title: Vue&Bootstrap5_LoginPageSample
 tags: Github, readme
 description: 使用Bootstrap 5 搭配Vue.js實作一個登入頁面
 ---
 
-# [使用Bootstrap 5 搭配Vue.js實作一個登入頁面](https://github.com/s123600g/Vue_loginPage)
-使用 Vue.js 搭配 BootStrap 5 實作一個登入頁面
+# [使用Bootstrap 5 搭配Vue實作一個登入頁面](https://github.com/s123600g/Vue_loginPage)
 
 **Bootstrap 5**：<br/>
 https://blog.getbootstrap.com/2020/06/16/bootstrap-5-alpha/
